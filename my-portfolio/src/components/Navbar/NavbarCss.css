@@ -1,0 +1,31 @@
+.box{
+  border-radius: 15%/50%;
+  border-color:rgba(139, 139, 139, 0.562) ;
+  border-width: 1px;
+  background-color: #8686863d;
+}
+
+#navbar{
+  background-color: transparent;
+  height:9vh;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.btn_trans{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  min-width: 5rem;
+  min-height: 2.5rem;
+  border-radius: 20%/50%;
+}
+
+.btn_trans:focus{
+  background-color: #7272723d;
+}
+
+.name{
+  font-size:x-large;
+}
