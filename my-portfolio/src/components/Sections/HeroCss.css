@@ -1,0 +1,180 @@
+.content{
+    max-width: 70%;
+    padding-top: 6rem;
+    background-color: transparent;
+    position: relative;
+    top:9vh;
+    margin: auto;
+
+    
+}
+
+.bebas{
+    font-family: Bebas;
+}
+.size{
+    max-width: 70%;
+    margin:auto;
+    margin-top: 10vh;
+
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    font-family: Maven;
+    border:3px solid #C04ABC;
+    /* color: #bf80ff;  */
+    color: #C04ABC ; 
+    /* color: #745296; */
+    padding: .5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+    font-size: 1.6rem;
+/*     margin-top: 10vh;
+    margin-left: 10vh;
+ */
+    
+}
+
+#button #arrow{
+    margin-top:.4rem;
+    min-width:2rem ;
+}
+.red{
+    background-color:red;
+    font-style: Maven;
+    min-height: 5vh;
+    min-width: 5vw;
+}
+.phrase1{
+    font-size: 10rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+#phrase2{
+    opacity: 50%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Typewriter effect 1 */
+@keyframes typing {
+    /* Typing "applications" */
+    0.0000%, 27.35% { content: ""; }
+    1.14%, 26.21% { content: "a"; }
+    2.28%, 25.07% { content: "ap"; }
+    3.42%, 23.93% { content: "app"; }
+    4.56%, 22.79% { content: "appl"; }
+    5.70%, 21.65% { content: "appli"; }
+    6.84%, 20.51% { content: "applic"; }
+    7.98%, 19.37% { content: "applica"; }
+    9.12%, 18.23% { content: "applicat"; }
+    10.26%, 17.09% { content: "applicati"; }
+    11.40%, 15.95% { content: "applicatio"; }
+    12.54%, 14.81% { content: "application"; }
+    13.68%, 13.67% { content: "applications"; }
+
+    /* Pause before typing next word */
+    30.77%, 51.28% { content: ""; }
+
+    /* Typing "websites" */
+    31.91%, 50.14% { content: "w"; }
+    33.05%, 49.00% { content: "we"; }
+    34.19%, 47.86% { content: "web"; }
+    35.33%, 46.72% { content: "webs"; }
+    36.47%, 45.58% { content: "websi"; }
+    37.60%, 44.44% { content: "websit"; }
+    38.74%, 43.30% { content: "website"; }
+    39.88%, 42.16% { content: "websites"; }
+
+    /* Pause before typing next word */
+    54.70%, 75.21% { content: ""; }
+
+    /* Typing "projects" */
+    55.84%, 74.07% { content: "p"; }
+    56.98%, 72.93% { content: "pr"; }
+    58.12%, 71.79% { content: "pro"; }
+    59.26%, 70.65% { content: "proj"; }
+    60.40%, 69.51% { content: "proje"; }
+    61.53%, 68.37% { content: "projec"; }
+    62.67%, 67.23% { content: "project"; }
+    63.81%, 66.09% { content: "projects"; }
+
+    /* Pause before typing next word */
+    78.63%, 96.86% { content: ""; }
+
+    /* Typing "mistakes" */
+    79.77%, 95.72% { content: "m"; }
+    80.91%, 94.58% { content: "mi"; }
+    82.05%, 93.44% { content: "mis"; }
+    83.19%, 92.30% { content: "mist"; }
+    84.33%, 91.16% { content: "mista"; }
+    85.47%, 90.02% { content: "mistak"; }
+    86.60%, 88.88% { content: "mistake"; }
+    87.74%, 87.74% { content: "mistakes"; }
+}
+
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+    color:#C04ABC;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink .7s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: .5ch solid var(--caret);
+}
+
+  
+
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      0%, 100% { content: "applications"; }
+      25% { content: "websites"; }
+      50% { content: "projects"; }
+      75% { content: "mistakes"; }
+    }
+  
+    .typewriter::before {
+      content: "developer";
+      animation: sequencePopup 12s linear infinite;
+    }
+  }

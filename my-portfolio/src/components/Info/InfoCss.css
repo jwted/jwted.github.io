@@ -1,0 +1,22 @@
+
+.showcase{
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    margin-top: 20vh;
+    font-size: 1.6rem;
+}
+
+.infogrid div{
+    /* background-color: red;
+    border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction{
+    width: 50%;
+    
+}
