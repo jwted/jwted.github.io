@@ -14,9 +14,52 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
+    /* border:.3rem solid black; */
+    border-radius: 10px;
 }
 
 #introduction{
+    width: 60%;
+}
+
+#githubIcon{
+    color: white;
+    transition: opacity 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+#githubIcon:hover{
+    color:#C04ABC;
+    opacity: 0.6;
+
+}
+
+#artstationIcon{
+    color:#42a5f5;
+    transition: opacity 0.3s ease;
+    transition: color 0.3s ease;
+}
+#artstationIcon:hover{
+    opacity: .6;
+    color: #C04ABC;
+}
+/* #artstationIcon p{
+    color: white;
+    transition: color 0.3s ease;
+}
+#artstationIcon p:hover{
+    color: #C04ABC;
+} */
+ 
+
+.iconsText{
+    align-items: center;
+    justify-content: space-between;
+    /* background-color:red; */
     width: 50%;
-    
+}
+
+.center{
+    align-items: center;
 }
