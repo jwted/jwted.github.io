@@ -2,30 +2,125 @@
     /* background-color: red; */
     max-width: 70%;
     margin: auto;
+    height: 100vh;
 }
 
 .workImage{
-    /* background-color: blue; */
-    min-height:50vh;
+    background-color: blue;
+    max-height:40vh;
     /* border: 4px solid white; */
-    min-width: 60%;
+    /* min-width: 60%; */
     /* margin:auto; */
     border-radius: 6px;
-
-
-    
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 .test{
-    width: 12rem;
-    height: 100%;
     /* margin: auto; */
     background-color: #B9534D;
     border-radius: 4px;
-
+    width:10vw ;
+    
 }
+img{
+    padding: auto;
+    max-height: 36vh;
+}
+
+#logo{
+    /* width: 20vw; */
+    
+}
+
+#onboard {
+    /* max-height: 36vh; */
+    /* width: 20vw; */
+}
+
+#behance{
+    /* height: 100%; */
+    /* width: 80vw; */
+    /* max-height:40vh ; */
+}
+
+
+
+.custom-image {
+    max-height: 30vh; /* Ajuste este valor para o tamanho original desejado */
+    width: auto; /* Mantém a proporção */
+  }
+
+
+
 .work p{
     text-wrap:wrap;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
+
+
+.leftside{
+    /* background-color: blue; */
+    width: 60%;
+    height: 50vh;
+}
+.rightside{
+    height: 10vh;
+    width: 40%;
+    /* background-color: red; */
+}
+
+.work h1{
+    font-size: 2.5rem;
+
+}
+.intro h1{
+    font-size: 2rem;
+
+}
+.intro p{
+    font-size: 1.2rem;
+    opacity: 50%;
+
+}
+
+#card{
+    /* border:.6rem solid  rgba(78, 78, 78, 0.562) ; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 0 10px rgba(58, 58, 58, 0.562); 
+
+
+    */
+    box-shadow: 0 0 0 10px rgba(58, 58, 58, 0.562), 0 0  5px rgba(146, 146, 146, 0.322); 
+     
+    /* background-color: #353535; */
+    background: linear-gradient(0deg, rgba(29, 29, 29, 0.562), rgba(80, 80, 80, 0.562));
+
+
+
+
+    border-radius: 20px; /* Adjust as needed */
+    /* border: 10px solid transparent;
+     */
+    background-clip: padding-box;
+    
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3); /* Outer glow effect */
+
+}
+
+
+.title{
+    /* background-color: red; */
+    padding-left:3rem;
+    padding-top:2rem;
+}
+
+.subtitle{
+    /* background-color: red; */
+    padding-left:3rem;
+    /* padding-top:rem; */
+}
+
+

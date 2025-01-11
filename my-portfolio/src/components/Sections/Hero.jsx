@@ -25,7 +25,7 @@ function Hero () {
       </div>
       <div className='red'>
         <ul>
-          <li><a>He</a></li>
+          <li><a></a></li>
         </ul>
       </div>
 </div>

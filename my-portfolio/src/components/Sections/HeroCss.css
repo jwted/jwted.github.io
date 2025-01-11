@@ -43,7 +43,7 @@
     min-width:2rem ;
 }
 .red{
-    background-color:red;
+    /* background-color:red; */
     font-style: Maven;
     min-height: 5vh;
     min-width: 5vw;
