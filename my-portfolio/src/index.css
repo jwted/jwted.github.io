@@ -55,6 +55,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  height:auto;
+  min-height: 100%;
+  /* overflow: visible; */
 }
 /* 
 a {

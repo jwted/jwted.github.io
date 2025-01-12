@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screens:{
+      phone:"640px",
+      pc:"1024px",
+      tablet:"768px"
+    },
+    extend: {
+      height:{
+        'nav' : '9vh'
+      }
+    },
   },
   plugins: [],
 }

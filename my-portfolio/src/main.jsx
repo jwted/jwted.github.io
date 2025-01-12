@@ -9,8 +9,8 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Info/>
-      <Work/>
+      <Work/> */}
   </StrictMode>,
 )

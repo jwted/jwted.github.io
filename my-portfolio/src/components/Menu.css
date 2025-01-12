@@ -1,0 +1,12 @@
+.circle{
+    background-color: red;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.pop{
+    background-color: blue;
+    width: 20vw;
+    height: 5vh;
+}

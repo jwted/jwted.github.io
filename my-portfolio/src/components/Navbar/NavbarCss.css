@@ -1,3 +1,11 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
 .box{
   border-radius: 15%/50%;
   border-color:rgba(139, 139, 139, 0.562) ;
@@ -5,19 +13,19 @@
   background-color: #8686863d;
 }
 
-#navbar{
+/* #navbar{
   background-color: transparent;
   height:9vh;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position:fixed;
   width:100vw;
    
-  /* box-sizing:content-box; */
+  box-sizing:content-box;
   margin:0 auto;
-  /* background-color: red; */
+  background-color: blue;
 }
-
+ */
 .btn_trans{
   background-color: transparent;
   backdrop-filter: blur(10px);
@@ -36,7 +44,8 @@
 }
 
 
-@media (max-width: 600px) {
+
+/* @media (max-width: 600px) {
   .box{
     border-radius: 15%/50%;
     border-color:rgba(139, 139, 139, 0.562) ;
@@ -50,9 +59,7 @@
   }
 
   #navbar {
-    /* width: 100vw; */
-    /* width: calc(100% - 24rem); */
-    /* background-color: brown; */
+ 
      box-sizing: content-box;
      
      
@@ -73,11 +80,50 @@
     font-size: 1rem;
   }
 
-  #navbar {
-    width: 100vw;
-    background-color: brown;
-    
-
-  }
   
+} */
+
+
+/* NavbarCss.css */
+
+#navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-icon path {
+  transition: d 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Toggle effect when open */
+.hamburger-icon.open path:nth-child(1) {
+  d: path("M 3 16.5 L 17 2.5");
+}
+
+.hamburger-icon.open path:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open path:nth-child(3) {
+  d: path("M 3 2.5 L 17 16.346");
+}
+
+.hamburger-container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-container svg {
+  width: 25px;
+  height: 25px;
+  transform-origin: center;
+}
+
+.hamburger-container path {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 2;
+  transition: transform 0.3s ease-in-out;
 }
