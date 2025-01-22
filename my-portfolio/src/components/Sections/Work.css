@@ -2,12 +2,12 @@
     /* background-color: red; */
     max-width: 70%;
     margin: auto;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .workImage{
     background-color: blue;
-    max-height:40vh;
+    /* max-height:40vh; */
     /* border: 4px solid white; */
     /* min-width: 60%; */
     /* margin:auto; */
@@ -27,7 +27,7 @@
 }
 img{
     padding: auto;
-    max-height: 36vh;
+    /* max-height: 36vh; */
 }
 
 #logo{
@@ -49,7 +49,7 @@ img{
 
 
 .custom-image {
-    max-height: 30vh; /* Ajuste este valor para o tamanho original desejado */
+    /* max-height: 30vh; Ajuste este valor para o tamanho original desejado */
     width: auto; /* Mantém a proporção */
   }
 
@@ -63,12 +63,12 @@ img{
 
 .leftside{
     /* background-color: blue; */
-    width: 60%;
-    height: 50vh;
+    /* width: 60%; */
+    /* height: 50vh; */
 }
 .rightside{
-    height: 10vh;
-    width: 40%;
+    /* height: 10vh; */
+    /* width: 40%; */
     /* background-color: red; */
 }
 
@@ -123,4 +123,16 @@ img{
     /* padding-top:rem; */
 }
 
+
+
+.githubIcon{
+    transition: opacity 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.githubIcon:hover{
+    color:#C04ABC;
+    opacity: 0.6;
+
+}
 

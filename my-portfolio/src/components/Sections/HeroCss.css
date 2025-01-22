@@ -5,12 +5,16 @@
     position: relative;
     top:9vh;
     margin: auto;
-
+      ;
     
 }
-
+.fds{
+  border:solid;
+  /* margin-bottom: 40vh; */
+}
 .bebas{
     font-family: Bebas;
+    /* font-size: 20rem; */
 }
 .size{
     max-width: 70%;
@@ -49,7 +53,7 @@
     min-width: 5vw;
 }
 .phrase1{
-    font-size: 10rem;
+    font-size: 12rem;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
 }
 

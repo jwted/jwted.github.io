@@ -88,6 +88,5 @@
 
 #navbar {
   transition: all 0.3s ease-in-out;
-  border: solid white;
   z-index: 2;
 }

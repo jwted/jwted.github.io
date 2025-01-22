@@ -2,8 +2,8 @@ import "./InfoCss.css";
 function Info() {
   return (
     <>
-      <section className="flex showcase justify-between">
-        <div className="" id="introduction">
+      <section className="flex phone:flex-wrap tablet:flex-nowrap  showcase justify-between">
+        <div className=" phone:w-full tablet:w-7/12 phone:break-normal" id="introduction">
           <p>
             I’m a fullstack web developer with a preference for backend work. I
             love handling the logic and structure behind the scenes of web and
@@ -14,8 +14,9 @@ function Info() {
             playing video games, doing 3D art or getting lost in a good book.
             I’m always eager to learn something new.{" "}
           </p>
-          <div className="flex mt-8 iconsText">
-            <div id="githubIcon" className="flex center">
+          <div className="flex mt-8 iconsText phone:gap-12  phone:mb-24">
+            {/* <div  className="flex center"> */}
+            <a id="githubIcon" className="flex center" href="https://github.com/jwted" target="_blank">
               <svg
                 className="h-14 w-14 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +45,11 @@ function Info() {
                 </g>
               </svg>
               <p>GitHub</p>
-            </div>
-            <div id="artstationIcon" className="flex center">
+                </a>
+            {/* </div> */}
+            <div  id="artstationIcon" className="flex center">
               <svg
+                
                 className="h-14 w-14 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
@@ -61,7 +64,7 @@ function Info() {
           </div>
         </div>
 
-        <div className="infogrid grid grid-cols-3 gap-6 auto">
+        <div className="infogrid grid grid-cols-3 gap-y-14 auto phone:w-full tablet:w-5/12 tablet:h-full ">
           <div className="">
             <svg
               className=" w-10 h-10 text-white-400 dark:text-red-500 icons"

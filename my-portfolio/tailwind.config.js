@@ -16,6 +16,9 @@ export default {
     extend: {
       height:{
         'nav' : '9vh'
+      },
+      colors:{
+        'text' : "rgba(255, 255, 255, 0.95)"
       }
     },
   },
