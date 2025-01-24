@@ -57,7 +57,7 @@ img{
 
 .work p{
     text-wrap:wrap;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
 }
 
 
@@ -73,7 +73,7 @@ img{
 }
 
 .work h1{
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
 
 }
 .intro h1{

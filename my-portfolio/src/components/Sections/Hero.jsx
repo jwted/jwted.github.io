@@ -12,15 +12,15 @@ function Hero () {
   <div className='mb-80 pt-20'>
 <div className="flex items-center content">
       <div className="text-start text-white p-8 bebas">
-        <h1 className="phone:text-5xl pc:text-7xl tablet:text-6xl font-bold phrase1">
+        <h1 className="text-5xl phone:text-5xl pc:text-7xl tablet:text-6xl font-bold phrase1">
           Sometimes I make
         </h1>
         
-        <div  className='typewriter thick phone:text-7xl tablet:text-7xl pc:text-9xl font-bold phrase1 mb-3'>
+        <div  className='text-6xl typewriter thick phone:text-7xl tablet:text-7xl pc:text-9xl font-bold phrase1 mb-3'>
           <span></span>
         </div>
           
-        <h1 className="phone:text-4xl tablet:text-6xl pc:text-6xl" id="phrase2">
+        <h1 className="text-3xl phone:text-4xl tablet:text-6xl pc:text-6xl" id="phrase2">
           usually out of caffeine
         </h1>
       </div>

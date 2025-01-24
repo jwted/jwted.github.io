@@ -5,9 +5,24 @@
 @import "tailwindcss/utilities";
 
 
+.navToggle{
+  color: #FFF;
+    /* text-align: center; */
+    /* border-radius: 18px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 80px; */
+    /* height: 36px; */
 
-.box{
-  border-radius: 15%/50%;
+    /* text-decoration: none;
+    transition: box-shadow 1s cubic-bezier(.23, 1, .32, 1), border .6s cubic-bezier(.165, .84, .44, 1);
+    display: flex;
+    */
+    ;
+  }
+  .box{
+    box-shadow: 0 10px 25px #00000026; 
+    border-radius: 15%/50%;
   border-color:rgba(139, 139, 139, 0.562) ;
   border-width: 1px;
   background-color: #8686863d;
@@ -26,9 +41,13 @@
   background-color: blue;
 }
  */
-.btn_trans{
+.btnColor{
+  
   background-color: transparent;
   backdrop-filter: blur(10px);
+}
+
+.btn_trans{
   min-width: 5rem;
   min-height: 2.5rem;
   border-radius: 20%/50%;

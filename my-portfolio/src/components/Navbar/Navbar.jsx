@@ -59,9 +59,9 @@ function NavbarFunc() {
     <div className="flex tablet:justify-between h-nav justify-between items-center fixed px-10 w-full" id="navbar">
   <h2 className="hidden tablet:inline name">João Pais</h2>
   
-  <div className="tablet:inline px-2 py-1 box">
-    <button className="px-2 max-h-6 btn_trans">Info</button>
-    <button className="px-2 max-h-6 btn_trans">Work</button>
+  <div className="navToggle btnColor tablet:inline px-2 py-1 box">
+    <button className=" px-2 max-h-6 btn_trans">Info</button>
+    <button className=" px-2 max-h-6 btn_trans">Work</button>
   </div>
 
   <div className="flex tablet:hidden pc:inline pc:gap-4 items-center">
