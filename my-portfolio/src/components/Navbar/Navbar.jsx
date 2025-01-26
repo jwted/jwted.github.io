@@ -60,8 +60,8 @@ function NavbarFunc() {
   <h2 className="hidden tablet:inline name">João Pais</h2>
   
   <div className="navToggle btnColor tablet:inline px-2 py-1 box">
-    <button className=" px-2 max-h-6 btn_trans">Info</button>
-    <button className=" px-2 max-h-6 btn_trans">Work</button>
+  <a href="#info"><button className=" px-2 max-h-6 btn_trans">Info</button></a>
+  <a href="#work"><button className=" px-2 max-h-6 btn_trans">Work</button></a>
   </div>
 
   <div className="flex tablet:hidden pc:inline pc:gap-4 items-center">
@@ -83,7 +83,7 @@ function NavbarFunc() {
           </Dropdown.Header>
           <a className="no-underline link" href="https://www.linkedin.com/in/joaoopais"  target="_blank">
           <Dropdown.Item className="link opacity-95 text-white">LinkedIn</Dropdown.Item></a>
-          <Dropdown.Item className="opacity-95 text-white">Resume</Dropdown.Item>
+          {/* <Dropdown.Item className="opacity-95 text-white">Resume</Dropdown.Item> */}
         </Dropdown>
           </div>
 </div>

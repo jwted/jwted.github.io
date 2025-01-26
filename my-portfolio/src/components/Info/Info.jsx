@@ -2,7 +2,7 @@ import "./InfoCss.css";
 function Info() {
   return (
     <>
-      <section className="anim lex flex-wrap tablet:flex-nowrap  showcase justify-between">
+      <section id="info" className="pt-40 flex flex-wrap tablet:flex-nowrap  showcase justify-between">
         <div className="mb-20 phone:w-full tablet:w-7/12 phone:break-normal" id="introduction">
           <p className="max-phone:text-base">
             I’m a fullstack web developer with a preference for backend work. I

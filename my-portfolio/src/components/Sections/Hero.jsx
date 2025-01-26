@@ -9,7 +9,7 @@ function Hero () {
     
     <div className=''>
 
-  <div className='mb-80 pt-20'>
+  <div className='mb-40 pt-20'>
 <div className="flex items-center content">
       <div className="text-start text-white p-8 bebas">
         <h1 className="text-5xl phone:text-5xl pc:text-7xl tablet:text-6xl font-bold phrase1">
