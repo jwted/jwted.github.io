@@ -115,7 +115,7 @@ function Work() {
             <div className="my-12 pc:w-1/5 flex max-phone:w-full justify-center tablet:m-auto">
               <img
                 className="h-36"
-                src="."
+                src={innerPeaceGreen}
                 alt=""
               />
             </div>
