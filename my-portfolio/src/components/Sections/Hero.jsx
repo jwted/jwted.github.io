@@ -29,7 +29,7 @@ function Hero () {
 </div>
 
   <div className='flex size px-8'>
-    <a href="#work"><button id='button'>Check my work <img id='arrow' src={arrow} /> </button></a>
+    <a href="#work"><button id='button'>Check my work <img id='arrow' src={Arrow} /> </button></a>
     
   </div>
 
