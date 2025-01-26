@@ -1,5 +1,6 @@
 import "./Work.css";
 import innerPeaceGreen from "../../../dist/assets/innerPeaceGreen.svg"
+import AllerLogo from "../../../dist/assets/AllerLogo.png"
 function Work() {
   return (
     <>
@@ -49,7 +50,7 @@ function Work() {
           </div>
           <div className="flex flex-wrap justify-center ">
             <div className="pc:w-1/5 max-phone:w-full    tablet:m-auto">
-              <img src="src\assets/AllerLogo.png" alt="" />
+              <img src={AllerLogo} alt="" />
             </div>
 
             <div className="max-phone:text-sm text-xl leading-snug text-sm flex-wrap tablet:w-full pc:w-4/6 max-pc:mb-12 mx-12 pc:m-12  ">
