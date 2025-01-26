@@ -72,14 +72,14 @@ function NavbarFunc() {
 
 <div className="pc:hidden">
 
-  <Dropdown className="border-[139, 139, 139, 0.562] pc:hidden box bg-8686863d "
+  <Dropdown className="border-[139, 139, 139, 0.562] pc:hidden box bg-8686863d btnColor "
           arrowIcon={true}
           inline
           
           >
-          <Dropdown.Header className="opacity-95 text-white">
+          <Dropdown.Header className=" opacity-95 text-white">
             <span className="block text-sm">João Pais</span>
-            <span className="block text-sm font-medium">jgjoaogabriel@hotmail.com</span>
+            <span className="block text-sm font-medium">joaopaisdev@gmail.com</span>
           </Dropdown.Header>
           <a className="no-underline link" href="https://www.linkedin.com/in/joaoopais"  target="_blank">
           <Dropdown.Item className="link opacity-95 text-white">LinkedIn</Dropdown.Item></a>

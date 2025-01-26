@@ -47,19 +47,21 @@ function Info() {
               <p className="max-phone:text-base">GitHub</p>
                 </a>
             {/* </div> */}
-            <div  id="artstationIcon" className="flex center">
+            <div >
+              <a id="artstationIcon" className="flex center" href="https://www.artstation.com/joaopais" target="_blank">
               <svg
                 
                 className="h-14 w-14 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
-              >
+                >
                 <path
                   fill="currentColor"
                   d="M2.141 34l3.771 6.519.001.001C6.656 41.991 8.18 43 9.94 43l.003 0 0 0h25.03l-5.194-9H2.141zM45.859 34.341c0-.872-.257-1.683-.697-2.364L30.977 7.319C30.245 5.94 28.794 5 27.124 5h-7.496l21.91 37.962 3.454-5.982C45.673 35.835 45.859 35.328 45.859 34.341zM25.838 28L16.045 11.038 6.252 28z"
-                ></path>
+                  ></path>
               </svg>
               <p className="max-phone:text-base">Artstation</p>
+                  </a>
             </div>
           </div>
         </div>
