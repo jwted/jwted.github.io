@@ -1,27 +1,14 @@
 import "./NavbarCss.css";
-import Variants from '../menu2.jsx'
+// import Variants from '../menu2.jsx'
 
 
 import {
-  Avatar,
   Dropdown,
-  DropdownDivider,
-  DropdownHeader,
-  DropdownItem,
-  Navbar,
-  NavbarBrand,
-  NavbarCollapse,
-  NavbarLink,
-  NavbarToggle,
 } from "flowbite-react";
 
 
 
 
-import animationData from '../../assets/animation/menu.json'
-// import Lottie from 'react-lottie'
-
-import { useState } from "react";
 
 function NavbarFunc() {
 
